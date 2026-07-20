@@ -1,307 +1,358 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jatan Puri — Full-Stack Developer &amp; Software Engineering Student</title>
-<meta name="description" content="Portfolio of Jatan Puri, a Software Engineering student and full-stack developer in Karachi building web apps, Flutter apps, REST APIs, and automated QA workflows.">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jatan Puri - Full-Stack Developer &amp; Software Engineering Student</title>
+  <meta name="description" content="Portfolio of Jatan Puri, a Software Engineering student in Karachi building full-stack web apps, Flutter apps, REST APIs, real-time systems, and automated QA workflows.">
 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 rx=%2220%22 fill=%22%230A1210%22/><text x=%2250%22 y=%2266%22 font-family=%22monospace%22 font-size=%2244%22 fill=%22%23F5B942%22 text-anchor=%22middle%22>JP</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23191714'/%3E%3Ctext x='50' y='62' font-family='Arial,sans-serif' font-size='38' font-weight='800' fill='%23fffdf9' text-anchor='middle'%3EJP%3C/text%3E%3Ccircle cx='78' cy='70' r='5' fill='%23f05a32'/%3E%3C/svg%3E">
 </head>
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
 
-<a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="siteHeader">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Jatan Puri home">JP<span>.</span></a>
 
-<div class="grain" aria-hidden="true"></div>
+      <nav class="primary-nav" aria-label="Primary navigation">
+        <a href="#about" data-nav>About</a>
+        <a href="#experience" data-nav>Experience</a>
+        <a href="#projects" data-nav>Projects</a>
+        <a href="#skills" data-nav>Skills</a>
+        <a href="#contact" data-nav>Contact</a>
+      </nav>
 
-<header class="site-header" id="site-header">
-  <div class="wrap header-inner">
-    <a href="#top" class="logo" aria-label="Jatan Puri — home">
-      <span class="logo-mark">JP</span>
-    </a>
-
-    <nav class="primary-nav" aria-label="Primary">
-      <a href="#work" data-nav>Work</a>
-      <a href="#about" data-nav>About</a>
-      <a href="#skills" data-nav>Skills</a>
-      <a href="#experience" data-nav>Experience</a>
-      <a href="#contact" data-nav>Contact</a>
-    </nav>
-
-    <div class="header-actions">
-      <a class="btn btn-ghost" href="assets/Jatan-Puri-Resume.pdf" target="_blank" rel="noopener" download>Resume</a>
-      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobileNav">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </div>
-</header>
-
-<div class="mobile-nav" id="mobileNav">
-  <nav aria-label="Mobile">
-    <a href="#work" data-nav>Work</a>
-    <a href="#about" data-nav>About</a>
-    <a href="#skills" data-nav>Skills</a>
-    <a href="#experience" data-nav>Experience</a>
-    <a href="#contact" data-nav>Contact</a>
-    <a href="assets/Jatan-Puri-Resume.pdf" target="_blank" rel="noopener" download class="mobile-resume">Download Resume</a>
-  </nav>
-</div>
-
-<main id="main">
-
-  <!-- HERO -->
-  <section class="hero" id="top">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <p class="availability-pill"><span class="dot" aria-hidden="true"></span> Available for internships &amp; remote work</p>
-        <p class="eyebrow" style="margin-top:24px;">Hello, I'm</p>
-        <h1 class="hero-title">Jatan <span class="accent">Puri</span></h1>
-        <p class="hero-role">I'm a <span id="typedRole" class="typed-role">Full-Stack Developer</span><span class="cursor" aria-hidden="true">|</span></p>
-        <p class="hero-sub">Building full-stack web apps, Flutter apps, REST APIs, and automated QA workflows. Currently studying at <strong>SZABIST Karachi</strong> (six semesters completed) and freelancing on <strong>Fiverr</strong>.</p>
-        <div class="hero-actions">
-          <a href="#work" class="btn btn-primary">View My Work</a>
-          <a href="assets/Jatan-Puri-Resume.pdf" target="_blank" rel="noopener" download class="btn btn-outline">Download Resume ↓</a>
-        </div>
-        <div class="hero-links">
-          <a href="https://github.com/JatanPuri5" target="_blank" rel="noopener">GitHub ↗</a>
-          <a href="https://www.linkedin.com/in/jatanpuri/" target="_blank" rel="noopener">LinkedIn ↗</a>
-        </div>
-      </div>
-
-      <div class="hero-visual" aria-hidden="true">
-        <div class="pipeline-card">
-          <div class="pipeline-head">
-            <span></span><span></span><span></span>
-            <p>build.sh</p>
-          </div>
-          <ul class="pipeline-steps" id="pipelineSteps">
-            <li data-step="lint"><span class="step-icon">○</span><span>lint</span></li>
-            <li data-step="typecheck"><span class="step-icon">○</span><span>typecheck</span></li>
-            <li data-step="test"><span class="step-icon">○</span><span>playwright test</span></li>
-            <li data-step="build"><span class="step-icon">○</span><span>build</span></li>
-            <li data-step="deploy"><span class="step-icon">○</span><span>deploy</span></li>
-          </ul>
-          <p class="pipeline-status" id="pipelineStatus">running…</p>
-        </div>
+      <div class="header-actions">
+        <a class="resume-link" href="assets/Jatan-Puri-Resume.pdf" target="_blank" rel="noopener" download>
+          Resume
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
+        </a>
+        <button class="nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
       </div>
     </div>
 
-    <div class="wrap highlights">
-      <div class="highlight"><span>6</span>semesters completed</div>
-      <div class="highlight"><span>3+</span>shipped full-stack projects</div>
-      <div class="highlight"><span>Web · Mobile</span>frontend to deployment</div>
-      <div class="highlight"><span>Karachi, PK</span>open to remote</div>
+    <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+      <nav class="mobile-menu-nav" aria-label="Mobile navigation">
+        <a href="#about" data-nav>About</a>
+        <a href="#experience" data-nav>Experience</a>
+        <a href="#projects" data-nav>Projects</a>
+        <a href="#skills" data-nav>Skills</a>
+        <a href="#contact" data-nav>Contact</a>
+        <a href="assets/Jatan-Puri-Resume.pdf" target="_blank" rel="noopener" download>Download Resume</a>
+      </nav>
     </div>
-  </section>
+  </header>
 
-  <!-- WORK -->
-  <section class="work" id="work">
-    <div class="wrap work-head">
-      <p class="eyebrow">Selected Work</p>
-      <h2>Projects I've built end to end</h2>
-      <p class="section-sub">Full-stack applications with real architecture decisions, written up honestly — including how each one was tested.</p>
-    </div>
+  <main id="main">
+    <section class="hero grid-section" id="top" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <p class="availability-pill reveal">
+          <span aria-hidden="true"></span>
+          Available for internships &amp; remote work
+        </p>
+        <p class="eyebrow hero-eyebrow reveal">Hello, I'm</p>
+        <h1 class="hero-title reveal" id="hero-title">Jatan <span>Puri</span></h1>
+        <p class="hero-role reveal">I'm a <span id="typedRole">Full-Stack Developer</span><span class="typing-cursor" aria-hidden="true"></span></p>
+        <p class="hero-copy reveal">
+          Building full-stack web applications, Flutter apps, REST APIs, real-time systems, and automated QA workflows. Currently studying Software Engineering at SZABIST Karachi and working on freelance development projects.
+        </p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-dark" href="#projects">View My Work</a>
+          <a class="btn btn-outline" href="assets/Jatan-Puri-Resume.pdf" target="_blank" rel="noopener" download>
+            Download Resume
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v12m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
+          </a>
+        </div>
+        <div class="social-row reveal" aria-label="Social links">
+          <a class="social-link" href="https://github.com/JatanPuri5" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1.35-3.74c4.5-.5 9.25-2.2 9.25-10A7.8 7.8 0 0 0 20.8 0a7.3 7.3 0 0 1-.2 4.25A7.7 7.7 0 0 0 12 3.95a7.7 7.7 0 0 0-8.6.3A7.3 7.3 0 0 1 3.2 0a7.8 7.8 0 0 0-2.1 4.26c0 7.76 4.72 9.48 9.22 10A4.8 4.8 0 0 0 9 18v4M9 19c-4.5 1.5-5-2-7-2"/></svg>
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/in/jatanpuri/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 5.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></svg>
+          </a>
+          <a class="social-link" href="mailto:jatanpuri5@gmail.com" aria-label="Email">
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="m4 6 8 7 8-7M4 6h16v12H4z"/></svg>
+          </a>
+        </div>
+      </div>
 
-    <div class="wrap projects-grid" id="projectsGrid">
-      <!-- project cards injected by JS -->
-    </div>
+      <div class="hero-note" aria-hidden="true">
+        <span>open to</span>
+        <strong>remote work</strong>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Scroll to about">
+        <span>Scroll</span>
+        <i aria-hidden="true"></i>
+      </a>
+    </section>
 
-    <div class="wrap case-studies">
-      <p class="eyebrow">Deep Dives</p>
-      <h2 class="case-title">Case Studies</h2>
-      <div class="case-tabs" id="caseTabs" role="tablist"></div>
-      <div class="case-panel" id="casePanel"></div>
-    </div>
-  </section>
+    <section class="about-section grid-section section-pad" id="about" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Get to know me</p>
+          <h2 id="about-title">About <span>Me</span></h2>
+        </div>
 
-  <!-- ADDITIONAL WORK -->
-  <section class="more-work">
-    <div class="wrap">
-      <p class="eyebrow">More Experiments</p>
-      <h2>Additional repositories</h2>
-      <div class="more-grid" id="moreGrid"></div>
-    </div>
-  </section>
-
-  <!-- ABOUT -->
-  <section class="about" id="about">
-    <div class="wrap">
-      <p class="eyebrow">Get to know me</p>
-      <h2 class="about-title">About Me</h2>
-
-      <div class="about-grid">
-        <div class="about-photo-col">
-          <div class="about-photo" id="aboutPhoto">
-            <img src="assets/profile.jpg" alt="Jatan Puri">
+        <div class="about-layout">
+          <div class="portrait-wrap reveal">
+            <div class="portrait-card">
+              <img src="assets/profile.jpg" alt="Portrait of Jatan Puri" loading="lazy">
+            </div>
           </div>
-          <div class="stat-row">
-            <div class="stat-chip"><span>3+</span>Projects</div>
-            <div class="stat-chip"><span>6</span>Semesters</div>
-            <div class="stat-chip"><span>2027</span>Graduating</div>
+
+          <div class="about-copy reveal">
+            <p>I'm a Software Engineering student at SZABIST Karachi and have completed six semesters of my BS Software Engineering degree. Alongside my studies, I work on freelance and academic software-development projects.</p>
+            <p>My work includes full-stack web applications, Flutter apps, backend APIs, real-time communication, databases, Docker deployments, and automated QA workflows using Playwright, Selenium, Postman, and Jira.</p>
+            <p>I'm currently open to internships, junior developer roles, remote opportunities, freelance projects, and technical collaborations.</p>
+
+            <div class="about-stats" aria-label="Portfolio facts">
+              <div class="stat-card"><strong>6</strong><span>Semesters Completed</span></div>
+              <div class="stat-card"><strong>5+</strong><span>Public Projects</span></div>
+              <div class="stat-card"><strong>Full-Stack</strong><span>Web &amp; Mobile</span></div>
+              <div class="stat-card"><strong>Karachi</strong><span>Open to Remote</span></div>
+            </div>
           </div>
         </div>
+      </div>
+    </section>
 
-        <div class="about-copy">
-          <p>I'm a Software Engineering student at <strong>SZABIST Karachi</strong> (graduating 2027), currently freelancing on <strong>Fiverr</strong> while completing my degree.</p>
-          <p>I specialize in building full-stack web applications, cross-platform Flutter apps, and REST APIs — and I test what I ship. From containerized deployments with Docker to end-to-end coverage with Playwright and Selenium, I care about software that still works after the demo ends.</p>
-          <p>I'm open to internships, junior software-engineering roles, and remote opportunities in full-stack, backend, or QA automation.</p>
-          <ul class="principles">
-            <li><strong>Build for real users</strong> — not just for the demo.</li>
-            <li><strong>Test critical workflows</strong> — Playwright and Selenium aren't optional extras.</li>
-            <li><strong>Keep architecture understandable</strong> — clarity beats cleverness.</li>
-            <li><strong>Document decisions</strong> — future-me and every teammate will thank present-me.</li>
-          </ul>
+    <section class="experience-section teal-band section-pad" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Where I've worked</p>
+          <h2 id="experience-title">Work Experience</h2>
+        </div>
+        <div class="experience-timeline" id="experienceTimeline">
+          <article class="timeline-card reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card-head">
+              <div>
+                <p class="timeline-type">Freelance</p>
+                <h3>Freelance Software Developer</h3>
+                <p class="timeline-org">Fiverr &amp; Direct Client Work</p>
+              </div>
+              <span class="date-pill">Ongoing</span>
+            </div>
+            <ul>
+              <li>Build full-stack web applications, backend APIs, and Flutter applications.</li>
+              <li>Work with React, JavaScript, Node.js, Express, MySQL, MongoDB, JWT authentication, Flutter, and Dart.</li>
+              <li>Develop automation solutions involving OCR, web scraping, API integration, CSV/Excel processing, and AI-assisted workflows.</li>
+              <li>Handle requirements, implementation, debugging, testing, client communication, and revisions.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>React</span><span>Node.js</span><span>Flutter</span><span>APIs</span><span>Automation</span>
+            </div>
+          </article>
+
+          <article class="timeline-card reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card-head">
+              <div>
+                <p class="timeline-type">Education</p>
+                <h3>Software Engineering Student</h3>
+                <p class="timeline-org">SZABIST Karachi</p>
+              </div>
+              <span class="date-pill">BS Software Engineering - In Progress</span>
+            </div>
+            <ul>
+              <li>Six semesters completed.</li>
+              <li>Coursework includes Data Structures and Algorithms, Object-Oriented Programming, Database Systems, Web Engineering, Software Quality Engineering and Testing, Computer Networks, and Operating Systems.</li>
+              <li>Build complete academic software projects covering frontend, backend, databases, testing, deployment, mobile apps, and networking.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>DSA</span><span>OOP</span><span>Databases</span><span>SQE</span><span>Networks</span>
+            </div>
+          </article>
+
+          <article class="timeline-card reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card-head">
+              <div>
+                <p class="timeline-type">Project-based</p>
+                <h3>Project-Based QA Automation</h3>
+                <p class="timeline-org">Academic &amp; Personal Projects</p>
+              </div>
+              <span class="date-pill">Testing Practice</span>
+            </div>
+            <ul>
+              <li>Develop Playwright and Selenium end-to-end tests.</li>
+              <li>Test REST APIs using Postman.</li>
+              <li>Integrate Jira workflows with full-stack applications.</li>
+              <li>Use Docker Compose for reproducible local deployments.</li>
+              <li>Document manual and automated test cases.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>Playwright</span><span>Selenium</span><span>Postman</span><span>Jira</span><span>Docker</span>
+            </div>
+          </article>
+
+          <article class="timeline-card reveal">
+            <span class="timeline-dot" aria-hidden="true"></span>
+            <div class="timeline-card-head">
+              <div>
+                <p class="timeline-type">Academic, Personal &amp; Freelance</p>
+                <h3>Full-Stack &amp; Mobile Development</h3>
+                <p class="timeline-org">Project Development Work</p>
+              </div>
+              <span class="date-pill">Active</span>
+            </div>
+            <ul>
+              <li>Develop React/Vite applications, Node.js/Express APIs, Flutter apps, and relational and document database integrations.</li>
+              <li>Implement authentication, validation, CRUD flows, real-time communication, dashboards, and responsive interfaces.</li>
+            </ul>
+            <div class="timeline-tags">
+              <span>React</span><span>Express</span><span>MongoDB</span><span>MySQL</span><span>Responsive UI</span>
+            </div>
+          </article>
         </div>
       </div>
+    </section>
 
-      <div class="about-meta">
-        <div class="meta-card">
-          <p class="meta-label">Education</p>
-          <p class="meta-value">BS Software Engineering</p>
-          <p class="meta-sub">SZABIST Karachi — in progress, 6 semesters completed</p>
+    <section class="projects-section grid-section section-pad" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="projects-title">Projects</h2>
         </div>
-        <div class="meta-card">
-          <p class="meta-label">Coursework</p>
-          <p class="meta-sub">Data Structures &amp; Algorithms, OOP, Database Systems, Software Quality Engineering &amp; Testing, Web App Development</p>
-        </div>
-        <div class="meta-card">
-          <p class="meta-label">Based in</p>
-          <p class="meta-value">Karachi, Pakistan</p>
-          <p class="meta-sub">Open to remote work worldwide</p>
-        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SKILLS -->
-  <section class="skills" id="skills">
-    <div class="wrap">
-      <p class="eyebrow">Skills</p>
-      <h2>What I actually work with</h2>
-      <div class="skills-grid" id="skillsGrid"></div>
-    </div>
-  </section>
-
-  <!-- EXPERIENCE -->
-  <section class="experience" id="experience">
-    <div class="wrap timeline">
-      <p class="eyebrow">Experience &amp; Education</p>
-      <h2>Timeline</h2>
-
-      <div class="timeline-item">
-        <div class="timeline-when">Ongoing</div>
-        <div class="timeline-body">
-          <h3>Freelance Software Developer</h3>
-          <p class="timeline-org">Fiverr &amp; direct client work</p>
-          <ul>
-            <li>Deliver full-stack web applications, backend APIs, and Flutter builds using React, Node.js/Express, MySQL/PostgreSQL, JWT auth, and Dart.</li>
-            <li>Build automation add-ons involving OCR, web scraping, and LLM/API integrations.</li>
-            <li>Own client communication end to end — requirement gathering, architecture, updates, revisions.</li>
-          </ul>
+    <section class="project-highlights teal-band section-pad" aria-labelledby="highlights-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Project notes</p>
+          <h2 id="highlights-title">Project <span>Highlights</span></h2>
         </div>
+        <div class="highlight-grid" id="highlightGrid"></div>
       </div>
+    </section>
 
-      <div class="timeline-item">
-        <div class="timeline-when">In progress</div>
-        <div class="timeline-body">
-          <h3>BS Software Engineering</h3>
-          <p class="timeline-org">SZABIST Karachi — six semesters completed</p>
-          <p class="timeline-desc">Coursework spanning Data Structures &amp; Algorithms, OOP, Database Systems, Software Quality Engineering &amp; Testing, Computer Networks, and Web App Development.</p>
+    <section class="expertise-section grid-section section-pad" aria-labelledby="expertise-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What I do best</p>
+          <h2 id="expertise-title">Core <span>Expertise</span></h2>
         </div>
+        <div class="expertise-grid" id="expertiseGrid"></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- SERVICES -->
-  <section class="services">
-    <div class="wrap">
-      <p class="eyebrow">Services</p>
-      <h2>How I can help</h2>
-      <div class="services-grid">
-        <div class="service"><h3>Full-Stack Web Development</h3><p>Responsive interfaces, backend services, authentication, databases, and deployment.</p></div>
-        <div class="service"><h3>Backend API Development</h3><p>REST APIs, database integration, validation, and documentation.</p></div>
-        <div class="service"><h3>Flutter App Development</h3><p>Cross-platform mobile apps with structured, provider-based state management.</p></div>
-        <div class="service"><h3>QA &amp; Test Automation</h3><p>Playwright, Selenium, API testing, end-to-end coverage, and Jira workflows.</p></div>
-        <div class="service"><h3>Python Automation</h3><p>Web scraping, data extraction, CSV/Excel processing, and OCR pipelines.</p></div>
-        <div class="service"><h3>AI-Assisted Integrations</h3><p>LLM APIs, document processing, and intelligent extraction workflows.</p></div>
+    <section class="skills-section grid-section section-pad" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">What I work with</p>
+          <h2 id="skills-title">Technical <span>Skills</span></h2>
+        </div>
+        <div class="skills-grid" id="skillsGrid"></div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- CONTACT -->
-  <section class="contact" id="contact">
-    <div class="wrap contact-inner">
-      <p class="eyebrow">Contact</p>
-      <h2>Let's build something useful.</h2>
-      <p class="section-sub">I'm currently open to internships, junior development roles, remote opportunities, freelance projects, and technical collaborations.</p>
+    <section class="learning-section grid-section section-pad" aria-labelledby="learning-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Education path</p>
+          <h2 id="learning-title">Education &amp; <span>Learning</span></h2>
+        </div>
+        <div class="learning-grid" id="learningGrid"></div>
+      </div>
+    </section>
 
-      <div class="contact-layout">
-        <div class="contact-cards">
-          <a class="contact-card" href="mailto:jatanpuri5@gmail.com">
-            <span class="meta-label">Email</span>
-            <span class="contact-card-value">jatanpuri5@gmail.com</span>
-          </a>
-          <a class="contact-card" href="https://www.linkedin.com/in/jatanpuri/" target="_blank" rel="noopener">
-            <span class="meta-label">LinkedIn</span>
-            <span class="contact-card-value">linkedin.com/in/jatanpuri</span>
-          </a>
-          <a class="contact-card" href="https://github.com/JatanPuri5" target="_blank" rel="noopener">
-            <span class="meta-label">GitHub</span>
-            <span class="contact-card-value">github.com/JatanPuri5</span>
-          </a>
-          <a class="contact-card" href="tel:+923403013773">
-            <span class="meta-label">Phone</span>
-            <span class="contact-card-value">+92 340 3013773</span>
-          </a>
-          <button class="contact-card" id="copyEmailBtn" data-email="jatanpuri5@gmail.com" type="button">
-            <span class="meta-label">Quick action</span>
-            <span class="contact-card-value">Copy email address</span>
-          </button>
+    <section class="contact-section grid-section section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-heading reveal">
+          <p class="eyebrow">Let's talk</p>
+          <h2 id="contact-title">Get In <span>Touch</span></h2>
+          <p>I'm open to internships, junior developer roles, remote opportunities, freelance projects, and technical collaborations.</p>
         </div>
 
-        <form class="contact-form" id="contactForm" novalidate>
-          <label for="cf-name">Name</label>
-          <input id="cf-name" name="name" type="text" placeholder="Your name" required>
-          <label for="cf-email">Email</label>
-          <input id="cf-email" name="email" type="email" placeholder="you@email.com" required>
-          <label for="cf-message">Message</label>
-          <textarea id="cf-message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
-          <p class="form-note">This opens your email app with the message pre-filled — there's no backend here, so nothing is sent silently.</p>
-          <button type="submit" class="btn btn-primary">Send Message</button>
-        </form>
+        <div class="contact-layout">
+          <div class="contact-cards reveal" aria-label="Contact methods">
+            <a class="contact-card" href="mailto:jatanpuri5@gmail.com">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m4 6 8 7 8-7M4 6h16v12H4z"/></svg></span>
+              <span><strong>Email</strong><em>jatanpuri5@gmail.com</em></span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/in/jatanpuri/" target="_blank" rel="noopener">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 5.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></svg></span>
+              <span><strong>LinkedIn</strong><em>linkedin.com/in/jatanpuri</em></span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+            </a>
+            <a class="contact-card" href="https://github.com/JatanPuri5" target="_blank" rel="noopener">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1.35-3.74c4.5-.5 9.25-2.2 9.25-10A7.8 7.8 0 0 0 20.8 0a7.3 7.3 0 0 1-.2 4.25A7.7 7.7 0 0 0 12 3.95a7.7 7.7 0 0 0-8.6.3A7.3 7.3 0 0 1 3.2 0a7.8 7.8 0 0 0-2.1 4.26c0 7.76 4.72 9.48 9.22 10A4.8 4.8 0 0 0 9 18v4M9 19c-4.5 1.5-5-2-7-2"/></svg></span>
+              <span><strong>GitHub</strong><em>github.com/JatanPuri5</em></span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+            </a>
+            <a class="contact-card" href="tel:+923403013773">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.12.96.34 1.9.66 2.8a2 2 0 0 1-.45 2.11L8.1 9.85a16 16 0 0 0 6 6l1.22-1.22a2 2 0 0 1 2.11-.45c.9.32 1.84.54 2.8.66A2 2 0 0 1 22 16.92Z"/></svg></span>
+              <span><strong>Phone</strong><em>+92 340 3013773</em></span>
+              <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 12h14m-5-5 5 5-5 5"/></svg>
+            </a>
+          </div>
+
+          <form class="contact-form reveal" id="contactForm" novalidate>
+            <div class="form-field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" autocomplete="email" placeholder="your@email.com" required>
+            </div>
+            <div class="form-field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+            </div>
+            <p class="form-note">This opens your email application with the message filled in.</p>
+            <button class="btn btn-dark send-button" type="submit">Send Message</button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
       </div>
-      <p class="copy-feedback" id="copyFeedback" role="status" aria-live="polite"></p>
-    </div>
-  </section>
+    </section>
+  </main>
 
-</main>
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="footer-brand" href="#top" aria-label="Back to top">Jatan Puri<span>.</span></a>
 
-<footer class="site-footer">
-  <div class="wrap footer-inner">
-    <div class="footer-brand">
-      <span class="logo-mark small">JP</span>
-      <div>
-        <p>Jatan Puri</p>
-        <p class="muted">Karachi, Pakistan</p>
+      <div class="footer-center">
+        <nav class="footer-nav" aria-label="Footer navigation">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <p>&copy; <span id="year"></span> Jatan Puri. All rights reserved.</p>
+        <button class="back-to-top" id="backToTop" type="button">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 19V5m-5 5 5-5 5 5"/></svg>
+          Back to top
+        </button>
+      </div>
+
+      <div class="footer-social" aria-label="Footer social links">
+        <a href="https://github.com/JatanPuri5" target="_blank" rel="noopener" aria-label="GitHub"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1.35-3.74c4.5-.5 9.25-2.2 9.25-10A7.8 7.8 0 0 0 20.8 0a7.3 7.3 0 0 1-.2 4.25A7.7 7.7 0 0 0 12 3.95a7.7 7.7 0 0 0-8.6.3A7.3 7.3 0 0 1 3.2 0a7.8 7.8 0 0 0-2.1 4.26c0 7.76 4.72 9.48 9.22 10A4.8 4.8 0 0 0 9 18v4M9 19c-4.5 1.5-5-2-7-2"/></svg></a>
+        <a href="https://www.linkedin.com/in/jatanpuri/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6ZM2 9h4v12H2zM4 5.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z"/></svg></a>
+        <a href="mailto:jatanpuri5@gmail.com" aria-label="Email"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="m4 6 8 7 8-7M4 6h16v12H4z"/></svg></a>
       </div>
     </div>
-    <div class="footer-links">
-      <a href="https://github.com/JatanPuri5" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://www.linkedin.com/in/jatanpuri/" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="mailto:jatanpuri5@gmail.com">Email</a>
-      <button id="backToTop" class="back-to-top">Back to top ↑</button>
-    </div>
-  </div>
-  <div class="wrap">
-    <p class="footer-note">Designed and built with attention to performance, accessibility, and detail. © <span id="year"></span> Jatan Puri.</p>
-  </div>
-</footer>
+  </footer>
 
-<script src="js/main.js"></script>
+  <a class="floating-contact" href="#contact" aria-label="Contact Jatan">
+    <span aria-hidden="true"></span>
+    <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/></svg>
+  </a>
+
+  <script src="js/main.js"></script>
 </body>
 </html>
