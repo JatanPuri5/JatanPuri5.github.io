@@ -1,102 +1,79 @@
-# Jatan Puri Portfolio
+# Jatan Puri — Developer Portfolio
 
-A static GitHub Pages portfolio for Jatan Puri, built with plain HTML, CSS, and JavaScript. The site presents Jatan's software engineering background, freelance/project experience, selected repositories, technical skills, contact details, profile photo, and resume.
+A responsive personal portfolio website showcasing my software-development experience, technical skills, selected projects, education, and freelance work.
 
-## Visual Design
+The website is built with plain HTML, CSS, and JavaScript and is deployed through GitHub Pages with a custom domain.
 
-The portfolio uses a light editorial developer-portfolio style:
+## Live Portfolio
 
-- Warm off-white background with a subtle square technical grid
-- Near-black typography with orange/coral accents
-- Sticky compact navigation with active-section underline and scroll progress
-- Centered hero, profile-led about section, teal experience bands, bordered project cards, compact skill cards, contact form, and dark footer
-- Responsive layouts for desktop, tablet, and mobile
+**jatanpuri.dev**
 
-## File Structure
+## Overview
 
-```text
-portfolio/
-  index.html
-  css/
-    style.css
-  js/
-    main.js
-  assets/
-    profile.jpg
-    Jatan-Puri-Resume.pdf
-  .nojekyll
-  CNAME
-  README.md
-```
+This portfolio presents my work across:
 
-## Local Preview
+- Full-stack web development
+- React and Node.js applications
+- Flutter mobile development
+- REST API development and integration
+- Python automation and web scraping
+- Real-time applications with Socket.IO
+- QA and test automation
+- Docker-based development workflows
 
-Run the site through a basic local HTTP server:
+## Main Features
 
-```bash
-py -m http.server 3000
-```
+- Responsive design for desktop, tablet, and mobile
+- Professional developer introduction and profile section
+- Technical skills organized by category
+- Selected project case studies
+- Education and freelance-experience sections
+- Downloadable resume
+- Smooth scrolling and active navigation states
+- Scroll-progress indicator
+- Lightweight animations and interactions
+- Custom-domain and HTTPS deployment
 
-Then open:
+## Technology Stack
 
-```text
-http://localhost:3000
-```
+### Frontend
 
-On macOS/Linux, use:
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Web Design
 
-```bash
-python3 -m http.server 3000
-```
+### Deployment
 
-## Editing Personal Information
+- GitHub Pages
+- Custom domain
+- HTTPS
+- DNS configuration
 
-Personal biography, contact details, resume links, and the main page structure live in `index.html`.
+## Featured Projects
 
-Project cards, project highlights, core expertise cards, technical skill groups, education cards, and the rotating hero roles are managed in `js/main.js`.
+The portfolio highlights selected work such as:
 
-Visual tokens, layout, responsive behavior, and animations live in `css/style.css`.
+- Bug Tracker Lite with Jira synchronization and Playwright testing
+- Real-Time Chat and WebSocket Platform
+- SpendWise cross-platform expense tracker
+- React e-commerce single-page application
+- Flutter and Python automation projects
 
-## Editing Projects
+Each project section presents the problem, technologies used, key functionality, and my role in the implementation.
 
-Open `js/main.js` and edit the `projects` array. Each project supports:
-
-- `number`
-- `name`
-- `category`
-- `description`
-- `points`
-- `tags`
-- `repo`
-
-Only add a live demo link after a working public demo exists.
-
-## Replacing Profile Photo
-
-Replace `assets/profile.jpg` with a new image using the same filename. Keep the image optimized and avoid deleting the file, because `index.html` references it directly.
-
-## Replacing Resume
-
-Replace `assets/Jatan-Puri-Resume.pdf` with the updated resume using the same filename. Do not rename or corrupt the PDF unless you also update every resume link in `index.html`.
-
-## GitHub Pages Deployment
-
-This portfolio is deployable from the repository root on GitHub Pages. It has no build step, no backend, and no environment variables.
-
-The custom domain is stored in `CNAME` and should contain only:
+## Project Structure
 
 ```text
-jatanpuri.dev
-```
-
-Keep `.nojekyll` in the repository so GitHub Pages serves files exactly as expected.
-
-## Update And Push
-
-After editing and reviewing locally:
-
-```bash
-git add .
-git commit -m "Redesign portfolio"
-git push
-```
+JatanPuri5.github.io/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── assets/
+│   ├── profile.jpg
+│   └── Jatan-Puri-Resume.pdf
+├── CNAME
+├── .nojekyll
+└── README.md
